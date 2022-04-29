@@ -1,0 +1,21 @@
+{
+  "name": "next-netlify-starter",
+  "version": "0.5.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export"
+  },
+  "dependencies": {
+    "@netlify/functions": "^1.0.0",
+    "next": "^12.1.5",
+    "nodejs-stock-info": "^0.1.20",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "share-price": "^1.0.8"
+  },
+  "devDependencies": {
+    "@netlify/plugin-nextjs": "^4.2.5"
+  }
+}
